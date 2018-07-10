@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initViews();
-        initListener();
-        initServices();
+        initViews();//初始化控件
+        initListener();//监听
+        initServices();//权限
     }
 
     private void initServices() {
